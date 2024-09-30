@@ -1,0 +1,113 @@
+body {
+    font-family: Brush Script;
+    background-color: #ffebee;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.canciones-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: url("https://estaticos-cdn.prensaiberica.es/clip/da889a97-b1cf-4853-a6c7-a70869715f6f_alta-libre-aspect-ratio_default_0.jpg");
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 70px;
+    color: #ff6f61;
+    margin: 0;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 50px;
+    color: #ff4081;
+    font-weight: 500;
+}
+
+.canciones-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cancion {
+    opacity:70%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 20px;
+    background-color: #ffebee;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+}
+
+.cancion:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.cancion-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cancion-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cancion h2 {
+    font-size: 22px;
+    color: #e91e63;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.cancion p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #880e4f;
+}
+
+.cancion a {
+    font-size: 16px;
+    color: #ff4081;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid #ff4081;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: fit-content;
+}
+
+.cancion a:hover {
+    background-color: #ff4081;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+ .nombre {
+            font-family:Brush Script;
+            font-size: 7rem;
+            color: #e91e63;
+            text-align: center;
+            margin-top: 20px;
+        }
